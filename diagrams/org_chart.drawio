@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="orgchart" name="Организационная структура">
+    <mxGraphModel dx="900" dy="700" grid="1" gridSize="10" guides="1" tooltips="1"
+                  connect="1" arrows="1" fold="1" page="1" pageWidth="1200" pageHeight="760"
+                  math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Уровень 0 -->
+        <mxCell id="gd" value="Генеральный директор ПАО «ОГК-2»"
+                style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="280" height="64" as="geometry"/>
+        </mxCell>
+
+        <!-- Уровень 1 -->
+        <mxCell id="zam" value="Заместитель ГД по управлению персоналом"
+                style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="260" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="ruk" value="Руководитель структурного подразделения-заказчика"
+                style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="260" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="sb" value="Служба безопасности"
+                style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="890" y="220" width="240" height="64" as="geometry"/>
+        </mxCell>
+
+        <!-- Уровень 2 -->
+        <mxCell id="otd_podbor" value="Отдел подбора и адаптации персонала"
+                style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="240" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="otd_kadr" value="Отдел кадров"
+                style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="220" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="spec_sb" value="Специалист службы безопасности"
+                style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="900" y="400" width="240" height="64" as="geometry"/>
+        </mxCell>
+
+        <!-- Уровень 3 -->
+        <mxCell id="spec_podbor" value="Специалист по подбору (рекрутер)"
+                style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="240" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="spec_kadr" value="Специалист по кадрам"
+                style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="220" height="64" as="geometry"/>
+        </mxCell>
+
+        <!-- Внешний участник -->
+        <mxCell id="kandidat" value="Кандидат&#10;(внешний участник)"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;verticalAlign=middle;spacing=8;"
+                vertex="1" parent="1">
+          <mxGeometry x="900" y="580" width="240" height="64" as="geometry"/>
+        </mxCell>
+
+        <!-- Связи подчинения -->
+        <mxCell id="e_gd_zam" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="gd" target="zam"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_gd_ruk" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="gd" target="ruk"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_gd_sb" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="gd" target="sb"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_zam_podbor" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="zam" target="otd_podbor"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_zam_kadr" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="zam" target="otd_kadr"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_podbor_spec" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="otd_podbor" target="spec_podbor"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_kadr_spec" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="otd_kadr" target="spec_kadr"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_sb_spec" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;"
+                edge="1" parent="1" source="sb" target="spec_sb"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Пунктирная связь внешнего участника с процессом подбора (маршрут по нижней кромке, без пересечения блоков) -->
+        <mxCell id="e_kand_podbor" value="взаимодействие в процессе подбора"
+                style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;rounded=0;fontSize=11;exitX=0;exitY=0.5;entryX=0.5;entryY=1;"
+                edge="1" parent="1" source="kandidat" target="spec_podbor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="160" y="700"/></Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="epc" name="EPC — Подбор и приём персонала">
+    <mxGraphModel dx="1000" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1"
+                  connect="1" arrows="1" fold="1" page="1" pageWidth="900" pageHeight="1900"
+                  math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ===== Центральная цепочка ===== -->
+        <mxCell id="n1" value="Вакансия открыта" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="20" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n2" value="Сформировать заявку" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="110" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n3" value="Заявка сформирована" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="200" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n4" value="Утвердить заявку" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="290" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="x1" value="X" style="ellipse;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="425" y="385" width="50" height="50" as="geometry"/></mxCell>
+        <mxCell id="n5" value="Заявка утверждена" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="460" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n6" value="Разместить вакансию и вести поиск" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="550" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n7" value="Резюме получены" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="640" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n8" value="Провести скрининг и собеседование" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="730" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="x2" value="X" style="ellipse;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="425" y="825" width="50" height="50" as="geometry"/></mxCell>
+        <mxCell id="n9" value="Кандидат подходит" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="900" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n10" value="Проверить кандидата" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="990" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="x3" value="X" style="ellipse;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="425" y="1085" width="50" height="50" as="geometry"/></mxCell>
+        <mxCell id="n11" value="Проверка пройдена" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="1160" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n12" value="Направить оффер" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="1250" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="x4" value="X" style="ellipse;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="425" y="1345" width="50" height="50" as="geometry"/></mxCell>
+        <mxCell id="n13" value="Оффер принят" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="1420" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n14" value="Оформить приём" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="1510" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n15" value="Приём оформлен" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="1600" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n16" value="Провести адаптацию" style="rounded=1;html=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="350" y="1690" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="n17" value="Сотрудник принят на работу" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="1780" width="200" height="55" as="geometry"/></mxCell>
+
+        <!-- ===== Негативные ветви (слева) ===== -->
+        <mxCell id="ev_otkl" value="Заявка отклонена" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="80" y="383" width="170" height="50" as="geometry"/></mxCell>
+        <mxCell id="term1" value="Подбор отменён" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="80" y="460" width="170" height="50" as="geometry"/></mxCell>
+        <mxCell id="ev_nepod" value="Кандидат не подходит" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="80" y="823" width="170" height="50" as="geometry"/></mxCell>
+        <mxCell id="ev_neprov" value="Проверка не пройдена" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="80" y="1083" width="170" height="50" as="geometry"/></mxCell>
+        <mxCell id="term2" value="Кандидату отказано" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="80" y="1160" width="170" height="50" as="geometry"/></mxCell>
+        <mxCell id="ev_ofotkl" value="Оффер отклонён" style="shape=hexagon;perimeter=hexagonPerimeter2;html=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="80" y="1343" width="170" height="50" as="geometry"/></mxCell>
+
+        <!-- ===== Оргединицы (справа) ===== -->
+        <mxCell id="o2" value="Руководитель" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="115" width="150" height="40" as="geometry"/></mxCell>
+        <mxCell id="o4" value="Руководитель" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="295" width="150" height="40" as="geometry"/></mxCell>
+        <mxCell id="o6" value="Отдел подбора (рекрутер)" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="555" width="150" height="40" as="geometry"/></mxCell>
+        <mxCell id="o8" value="Отдел подбора (рекрутер)" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="735" width="150" height="40" as="geometry"/></mxCell>
+        <mxCell id="o10" value="Служба безопасности" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="995" width="150" height="40" as="geometry"/></mxCell>
+        <mxCell id="o12" value="Отдел подбора (рекрутер)" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="1255" width="150" height="40" as="geometry"/></mxCell>
+        <mxCell id="o14" value="Отдел кадров" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="1515" width="150" height="40" as="geometry"/></mxCell>
+        <mxCell id="o16" value="Отдел кадров" style="ellipse;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="620" y="1695" width="150" height="40" as="geometry"/></mxCell>
+
+        <!-- Информационные системы (справа, второй ряд) -->
+        <mxCell id="is6" value="ИС: hh.ru" style="rounded=0;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1"><mxGeometry x="620" y="505" width="110" height="35" as="geometry"/></mxCell>
+        <mxCell id="is14" value="ИС: 1С:ЗУП" style="rounded=0;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1"><mxGeometry x="620" y="1465" width="110" height="35" as="geometry"/></mxCell>
+
+        <!-- ===== Документы (слева от функций) ===== -->
+        <mxCell id="doc2" value="Заявка на подбор" style="shape=document;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1"><mxGeometry x="120" y="110" width="140" height="50" as="geometry"/></mxCell>
+        <mxCell id="doc8" value="Резюме кандидатов" style="shape=document;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1"><mxGeometry x="120" y="735" width="140" height="50" as="geometry"/></mxCell>
+        <mxCell id="doc10" value="Заключение СБ" style="shape=document;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1"><mxGeometry x="120" y="995" width="140" height="50" as="geometry"/></mxCell>
+        <mxCell id="doc14" value="Трудовой договор, приказ Т-1, карточка Т-2" style="shape=document;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1"><mxGeometry x="110" y="1505" width="160" height="60" as="geometry"/></mxCell>
+
+        <!-- ===== Поток (управляющие связи) ===== -->
+        <mxCell id="c1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n3" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c4" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n4" target="x1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c5" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x1" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c5b" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x1" target="ev_otkl"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c5c" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="ev_otkl" target="term1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c6" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n5" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c7" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c8" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n7" target="n8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c9" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n8" target="x2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c10" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x2" target="n9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c10b" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x2" target="ev_nepod"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c10c" value="возврат к поиску" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;fontSize=10;" edge="1" parent="1" source="ev_nepod" target="n6">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="30" y="848"/><mxPoint x="30" y="575"/></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="c11" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n9" target="n10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c12" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n10" target="x3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c13" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x3" target="n11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c13b" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x3" target="ev_neprov"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c13c" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="ev_neprov" target="term2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c14" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n11" target="n12"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c15" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n12" target="x4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c16" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x4" target="n13"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c16b" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="x4" target="ev_ofotkl"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c16c" value="возврат к поиску" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;fontSize=10;" edge="1" parent="1" source="ev_ofotkl" target="n6">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="20" y="1368"/><mxPoint x="20" y="575"/></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="c17" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n13" target="n14"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c18" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n14" target="n15"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c19" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n15" target="n16"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c20" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="n16" target="n17"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- ===== Ассоциации с оргединицами / ИС / документами ===== -->
+        <mxCell id="a2" style="html=1;endArrow=none;" edge="1" parent="1" source="n2" target="o2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a4" style="html=1;endArrow=none;" edge="1" parent="1" source="n4" target="o4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a6" style="html=1;endArrow=none;" edge="1" parent="1" source="n6" target="o6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a6i" style="html=1;endArrow=none;" edge="1" parent="1" source="n6" target="is6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a8" style="html=1;endArrow=none;" edge="1" parent="1" source="n8" target="o8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a10" style="html=1;endArrow=none;" edge="1" parent="1" source="n10" target="o10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a12" style="html=1;endArrow=none;" edge="1" parent="1" source="n12" target="o12"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a14" style="html=1;endArrow=none;" edge="1" parent="1" source="n14" target="o14"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a14i" style="html=1;endArrow=none;" edge="1" parent="1" source="n14" target="is14"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a16" style="html=1;endArrow=none;" edge="1" parent="1" source="n16" target="o16"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ad2" style="html=1;endArrow=none;dashed=1;" edge="1" parent="1" source="n2" target="doc2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ad8" style="html=1;endArrow=none;dashed=1;" edge="1" parent="1" source="n8" target="doc8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ad10" style="html=1;endArrow=none;dashed=1;" edge="1" parent="1" source="n10" target="doc10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ad14" style="html=1;endArrow=none;dashed=1;" edge="1" parent="1" source="n14" target="doc14"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
